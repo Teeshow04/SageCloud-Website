@@ -289,13 +289,73 @@ padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 .contact-image img {
-    width: 500px;
+    width: 550px;
 }
 
+.form-group label {
+    display: block;
+    font-size: 20px;
+    margin: 7px  0;
+    color: #555;
+}
 
+.form-group input {
+    background-color:#F3F4F2;
+    border-color: transparent;
+    border-radius: 5px;
+    width: 600px;
+    padding: 15px 20px;
+    font-size: 13px;
+    color: #555;
+    /* transition: all 0.3s ease; */
+  }
+  .message-box {
+    background-color:#F3F4F2;
+    border-color: transparent;
+    color: #555;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    padding: 15px 20px;
+    width: 600px;
+    height: 130px;
+  }
+  
+  .form-group input:focus,
+  .message-box:focus{ 
+    appearance: none;
+    outline: none;
+    -webkit-appearance: none;
+    border: 2px solid #5bc0de;
+}
+  
+.submit-btn {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.send-btn,
+.request-btn {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.send-btn {
+    background-color: #ff6a00;
+    color: #fff;
+    border-color: transparent;
+}
+.request-btn {
+    background-color: #fff;
+    border: 2px solid #ff6a00;
+    color: #ff6a00;
+}
 
-
+.footer-wave img {
+    width: 100%;
+}
 
 
