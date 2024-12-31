@@ -55,7 +55,7 @@ header{
     border-radius: 8px;
     padding: 13px;
     font-size: 15px;
-    /* gap: 15px; */
+    box-shadow: 0px 4px 0px rgba(255, 106, 0, 0.8); 
 }
 .nav-toggle{
     display: none;
@@ -347,6 +347,7 @@ padding-top: 50px;
     background-color: #ff6a00;
     color: #fff;
     border-color: transparent;
+    box-shadow: 0px 4px 0px rgba(255, 106, 0, 0.8); 
 }
 .request-btn {
     background-color: #fff;
@@ -354,8 +355,68 @@ padding-top: 50px;
     color: #ff6a00;
 }
 
+
+/* footer section */
+
+.footer {
+    background-color: #001E89;
+    color: #fff;
+    /* min-height: 500px; */
+}
 .footer-wave img {
     width: 100%;
 }
 
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    line-height: 1.5;
+    height: 100%;
+    /* margin:0 55px; */
+}
+.footer-header p {
+   font-size: 21px;
+   padding-bottom: 50px;
+   padding-left: 10px;
+}
 
+.footer-info {
+    display: flex;
+    gap: 100px;
+}
+.footer-services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-services  h3,
+.footer-social h3 {
+ font-size: 23px;
+ color: #ff6a00;
+ margin-top: 10px;
+}
+.service-links a{
+    text-decoration: none;
+    color: #fff;
+    
+    font-size: 18px;
+}
+.footer-services h3,
+.service-links p,
+.footer-social h3,
+.social-link {
+    margin-bottom: 20px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.social-link a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
