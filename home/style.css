@@ -174,7 +174,7 @@ color: #ff6a00;
 
 /* What-we-do section  */
 #what-we-do {
-  min-height: 1600px;
+  min-height: 1450px;
 }
 #what-we-do h1 {
 padding-top: 50px;
@@ -199,22 +199,20 @@ padding-top: 50px;
     display: flex;
     flex-wrap: wrap; 
     justify-content: center; 
-    gap: 40px; 
-    padding: 40px 350px;
+    gap: 20px; 
+    padding: 40px 300px;
    
  }
  .service-item {
     flex: 1 1 calc(33.333% - 40px); /* Adjusts the width of each item */
-    max-width: 400px; 
-    height: 430px;
-   
+    max-width: 360px; 
+    height: 400px; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 20px 10px;
     background: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
  .service-item:hover  {
@@ -485,8 +483,9 @@ padding-top: 50px;
         }
         .nav-toggle:focus {
             border: 2px solid #fff;
-           
         }
+
+        /* agile section */
         .agile-content {
             flex-direction: column-reverse;
              row-gap: 50px;
@@ -504,6 +503,8 @@ padding-top: 50px;
             align-items: center;
             padding-top: 30px;
         }
+
+        /* about us section */
         #about-us {
             min-height: 1100px;
         }
@@ -521,6 +522,12 @@ padding-top: 50px;
         .about-info p:nth-of-type(2) {
            margin-left: -35px;
         }
+
+        /* what we do section */
+
+        #what-we-do {
+            min-height: 2800px;
+        }
          .what-header {
             text-align: center;
             padding: 0 130px;
@@ -530,11 +537,24 @@ padding-top: 50px;
         }
 
         .what-services {
-            /* display: flex; */
-           grid-template-columns: 1fr;
+           padding:0 200px;
+        }
+        .service-item {
+           min-width: 200px;
+           height: 100%;
         }
 
+        /* why section */
+         #why-us {
+            min-height: 1200px;
+         } 
+         .why-benefits {
+           padding: 0;
+           grid-template-columns: 1fr;
+            margin-left: 80px;
 
+         }
+        
 
 
 
