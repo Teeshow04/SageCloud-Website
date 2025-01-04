@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="icon" href="/assets/favicon.png" type="image/png">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="logo">
+        <a href="/home/index.html">
+            <img src="/assets/sage_cloud.png" width="200" height="45" alt="sagecloud logo">
+        </a>
+    </div>
+
+    <section class="reset-container">
+        <div class="reset-content">
+            <form class="form" id="Form">
+
+                <h3>RESET PASSWORD</h3>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <div class="input-group">
+                        <div class="input-icon">
+                            <i class="far fa-user"></i>
+
+                        </div>
+                        <input type="email" name="email" id="email" 
+                        class="form-input"
+                        autocomplete="email" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="reset-btn"><span>Send Password Reset Link</span></button>
+                </div>
+            </form>
+
+            <!-- the login image -->
+            <div class="login-img">
+                <img src="/assets/login_bg.svg" alt="login image">
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
