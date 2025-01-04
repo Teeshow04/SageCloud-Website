@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign In</title>
+    <link rel="icon" href="/assets/favicon.png" type="image/png">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,7 +16,7 @@
 <body>
     <div class="logo">
         <a href="/home/index.html">
-            <img src="/assets/sage_cloud.png" width="200" height="40" alt="sagecloud logo">
+            <img src="/assets/sage_cloud.png" width="200" height="45" alt="sagecloud logo">
         </a>
     </div>
 
@@ -22,38 +24,33 @@
         <div class="login-content">
             <form class="form" id="Form">
 
-                <h3>Sign In</h3>
+                <h3>SIGN IN</h3>
 
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <div class="form-content" style="position: relative; display: flex; align-items: center;">
-                        <span
-                            style="position: absolute; left: 10px; color: #aaa; border-right:1px solid #aaa; padding-right: 5px;">
+                    <div class="input-group">
+                        <div class="input-icon">
                             <i class="fas fa-envelope"></i>
-                        </span>
-                        <input type="email" name="email" class="form-input" id="email" autocomplete="email" required
-                            placeholder="Enter your email" style="padding-left: 35px;">
+                        </div>
+                        <input type="email" name="email" id="email" 
+                        class="form-input"
+                        autocomplete="email" required
+                            placeholder="Email">
                     </div>
                 </div>
 
 
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <div class="form-content"
-                    style="position: relative; display: flex; align-items:     center;">
-                        <span
-                            style="position: absolute; left: 10px; color: #aaa; border-right: 1px solid #aaa; padding-right: 5px;">
+                    <div class="input-group">
+                        <div class="input-icon">
                             <i class="fas fa-lock"></i>
-                        </span>
-
-                        <!-- Password Input -->
+                        </div>
                         <input type="password" name="password" class="form-input" id="password"
-                            autocomplete="current-password" required placeholder="Password"
-                            style="padding-left: 35px;">
+                            autocomplete="current-password" required placeholder="Password">
 
                         <!-- Toggle Visibility Button -->
-                        <button type="button" class="show-password" aria-label="Toggle password visibility"
-                            style="position: abolute; right: 10px; background: none; border: none; cursor: pointer;">
+                        <button type="button" class="show-password" aria-label="Toggle password visibility">
                             <i class="fas fa-eye"></i>
                         </button>
                     </div>
@@ -66,20 +63,17 @@
                     </p>
                     <a href="/reset/index.html" class="reset-password-link">Reset Password?</a>
                 </div>
-        
-               <div class="form-group">
-               <button type="submit" class="login-btn"><span>Login</span></button>
-             </div>
+
+                <div class="form-group">
+                    <button type="submit" class="login-btn"><span>LOGIN</span></button>
+                </div>
             </form>
 
-<!-- the login image -->
+            <!-- the login image -->
             <div class="login-img">
-            <img src="/assets/login_bg.svg" alt="login image">
+                <img src="/assets/login_bg.svg" alt="login image">
             </div>
-
         </div>
-
-
     </section>
 </body>
 
