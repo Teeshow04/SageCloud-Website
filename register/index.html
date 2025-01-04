@@ -21,17 +21,56 @@
         </a>
     </div>
 
-    <section class="login-container">
-        <div class="login-content">
+    <section class="register-container">
+        <div class="register-content">
             <form class="form" id="Form">
 
-                <h3>SIGN IN</h3>
+                <h3>BECOME A MERCHANT</h3>
+
+                <div class="form-group">
+                    <label for="name">Name of Business</label>
+                    <div class="input-group">
+                        <div class="input-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <input type="name" name="name" id="name" 
+                        class="form-input"
+                        autocomplete="email" required
+                            placeholder="Name of Business">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">First Name</label>
+                    <div class="input-group">
+                        <div class="input-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <input type="name" name="name" id="name" 
+                        class="form-input"
+                        autocomplete="email" required
+                            placeholder="First Name">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="name"Last Name</label>
+                    <div class="input-group">
+                        <div class="input-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <input type="name" name="name" id="name" 
+                        class="form-input"
+                        autocomplete="email" required
+                            placeholder="Last Name">
+                    </div>
+                </div>
 
                 <div class="form-group">
                     <label for="email">Email</label>
                     <div class="input-group">
                         <div class="input-icon">
-                            <i class="far fa-user"></i>
+                            <i class="far fa-envelope"></i>
 
                         </div>
                         <input type="email" name="email" id="email" 
@@ -40,6 +79,21 @@
                             placeholder="Email">
                     </div>
                 </div>
+
+                <div class="form-group">
+                    <label for="number">Phone Number</label>
+                    <div class="input-group">
+                        <div class="input-icon">
+                            <i class="fas fa-mobile-alt"></i>
+
+                        </div>
+                        <input type="number" name="number" id="number" 
+                        class="form-input"
+                        autocomplete="number" required
+                            placeholder="Phone">
+                    </div>
+                </div>
+
 
 
                 <div class="form-group">
@@ -58,16 +112,25 @@
                     </div>
                 </div>
 
-                <div class="register-info">
-                    <p class="register-text">
-                        Not a Merchant?
-                        <a href="/register/index.html" class="register-link">Sign Up</a>
-                    </p>
-                    <a href="/reset/index.html" class="reset-password-link">Reset Password?</a>
+
+                <div class="terms-container">
+                        <input type="checkbox" id="agree-checkbox-hidden" class="checkbox">
+                    </div>
+                    <label for="agree-checkbox">
+                       I Accept Sagecloud's
+                        <a href="https://sagecloud.ng/privacy-policy" class="terms-link" target="_blank">Privacy-Policy</a>
+                    </label>
                 </div>
 
+                <div class="register-info">
+                    <p class="register-text">
+                        Already a Merchant?
+                        <a href="/login/index.html" class="login-link">Sign in here</a>
+                    </p>
+                 </div>
+
                 <div class="form-group">
-                    <button type="submit" class="login-btn"><span>LOGIN</span></button>
+                    <button type="submit" class="register-btn"><span>REGISTER</span></button>
                 </div>
             </form>
 
