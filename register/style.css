@@ -163,21 +163,24 @@ input[type="number"]::-webkit-outer-spin-button {
     min-height:700px;
 }
 
-/* @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) { 
     
-    .logo {
-        position: relative;
-    }
-   .login-content {
+   .register-content {
     flex-direction: column;
     padding: 0;
     margin: 0;
    }
-
+    .form {
+        padding: 0;
+        margin-bottom: 100px;
+    }
+    .form h3 {
+        padding-top: 10px;
+    }
    .login-img {
-    position: relative;
+    display: none;
    }
    .login-img img {
     width: 50px;
    }
-} */
+} 
